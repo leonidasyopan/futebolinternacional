@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900|Titillium+Web&display=swap');
+
+/* --------------------------------------------- */
+/* --------- Branding: Color Palette ----------- */
+/* --------------------------------------------- */
+/* These are the colors of the boxes under the Branding section */
+#swatch1{
+	background-color: #F24150;
+}
+#swatch2{
+	background-color: #042F40;
+}	
+#swatch3{
+	background-color: #1FAFBF;
+}	
+#swatch4{
+	background-color: #F2F2F2;
+}	
+#swatch5{
+	background-color: #595959;
+}	
+
+#swatch6{
+	background-color: #ffffff;
+	border: 1px solid #595959;
+}
+
+/* ----------------------------------------------------- */
+/* --------- Typography: Heading & Body Copy ----------- */
+/* ----------------------------------------------------- */
+/* These are the font families of all the headings and body copy */
+
+body{	
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 1.05em;
+    line-height: 1.5em;
+    color: #595959;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+    color: #042F40;
+}
+
+
+/* -------------------------------------------------- */
+/* --------- Navigation: Main & Secondary ----------- */
+/* -------------------------------------------------- */
+/* Colors, style, floating, shapes, etc of main & secondary navs */
+
+/* Main Navigation Style */
+#mainnav{
+	
+}
+#mainnav ul{
+  	padding: 0;
+	margin: 0;
+	list-style-type: none;        
+  	font-size: 0;	
+}
+#mainnav li{
+  	display: inline-block;    
+	border-left: 2px solid #595959;  
+	border-top: 2px solid #595959;  
+	border-bottom: 2px solid #595959;  
+	margin: 0;
+	padding: 0;	
+}
+
+#mainnav li:nth-of-type(4) {	
+	border-right: 2px solid #595959;  
+}
+
+#mainnav a:link{
+	display: block; 
+	background-color: #042F40; 
+	color: #F2F2F2;
+	text-decoration: none;	
+	font-size: 16px; 
+	font-weight: bold;
+	margin: 0;
+	padding: 20px 60px;    
+	text-transform: uppercase;
+}
+
+#mainnav a:visited{
+	color: lightyellow;
+}
+#mainnav a:hover{
+	background-color: #F24150;
+	color: #042F40; 
+}
+#mainnav a:active{
+	background-color: #595959;
+	color: #042F40; 
+}
+
+
+/* Secondary Navigation Style */
+#secondnav{
+  	background-color: #1FAFBF;
+	padding:10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#secondnav ul{
+  	padding: 0;
+
+}
+#secondnav li{
+  	display: inline; 
+	padding: 0 10px;
+}
+#secondnav a:link{
+	text-decoration: none;	
+	color: #F2F2F2;
+}
+#secondnav a:visited{
+	color: lightyellow;
+}
+#secondnav a:hover{
+	color: #042F40;
+	text-decoration: underline;	
+}
+#secondnav a:active{
+	color: #FFFFFF;	
+}
+
+
+
+
+/* ----------------------------------- */
+/* --------- HTML Elements ----------- */
+/* ----------------------------------- */
+/* Styling for all HTML Elements */
+
+/* True for all headings */
+h1, h2, h3 ,h4, h5, h6{
+	color: #042F40;
+	font-weight: 900;
+}
+
+
+/* Style for individual headings */
+h1{
+  	font-size: 2.6em;
+}
+
+h2{
+  	font-size: 2.4em;
+}
+
+h3{
+  	font-size: 2.2em;
+}
+
+h4{
+  	font-size: 2.0em;
+}
+
+h5{
+  	font-size: 1.8em;
+}
+
+h6{
+  	font-size: 1.6em;
+}
+
+
+/* List Styles */
+ul{
+
+}
+ul li{
+  	margin-left: 10px;
+	padding-left: 30px;
+}
+
+ol{
+
+}
+ol li{
+ 	margin-left: 10px;
+	padding-left: 30px;
+}
+
+
+/* Non-Navigational Link Styles */
+/* This is for all default links on your page */
+a:link{
+  	color: #F24150;
+}
+a:visited{
+  	color: #042F40;
+}
+a:hover{
+  	color: #1FAFBF;
+}
+a:active{
+  	color: #042F40;
+}
+
+/* This is for secondary link styles (possibly in your footer, etc) */
+.linkstyle2 a:link{
+  	color: #F2F2F2;
+}
+.linkstyle2 a:visited{
+  	color: #042F40;
+}
+.linkstyle2 a:hover{
+  	color: #1FAFBF;
+}
+.linkstyle2 a:active{
+  	color: #042F40;
+}
+
+
+/* Paragraph Styles */
+p{
+	color: 	#383838;
+	line-height: 1.6em;
+	letter-spacing: .3px;
+	font-size: 1.2em;	
+}
+
+
+/* Figure and Figcaption Styles */
+figure{
+	text-align: center;
+ 	width: 500px;
+	margin: 0;
+	border: 0;
+}
+figure img{
+  	max-width: 100%;
+	margin: 0;
+	border: 0;
+}
+figcaption{
+  	font-size: 1.2em;
+	font-style: italic;	
+}
+
+
+/* Figure and Figcaption Styles for News */
+
+#figure-news figcaption {
+    height: 50px;
+    background-color: rgba(4, 47, 64, 0.95);
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+	padding: 20px 30px;
+	margin-top: -97px;
+    position: relative;
+	z-index: 2;
+	font-style: normal;    
+}
+
+#figure-news {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#figure-news figcaption:hover {
+    cursor: pointer;
+    background-color: #F24150;
+}
+
+#figure-news img:hover {
+    transform: scale(1.05);
+    transition-duration: 00ms;
+}
+
+
+
+
+
+
+
+/* ------------------------------------- */
+/* --------- Style Guide CSS ----------- */
+/* ------------------------------------- */
+/* The following CSS is used for the styling of the structure of the Style Guide itself */
+body{
+	width: 800px;
+	margin: 10px auto;
+	border: 1px solid #777;
+	padding: 50px;
+}
+
+.styleguide{
+	font-family: "Courier New", Courier, monospace;
+}
+h1.styleguide, h2.styleguide, h3.styleguide, h4.styleguide, h5.styleguide, h6.styleguide{
+	color: #777;
+	font-family: "Courier New", Courier, monospace;
+}
+h2.styleguide{
+    background-color: #777;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: -15px;
+    color: white;
+}
+p.styleguide{
+	color: #777;
+	font-family: "Courier New", Courier, monospace;
+}
+
+section{
+    margin-top: -10px;
+    margin-bottom: 70px; 
+}
+.colorgroup{
+    float: left;
+    width: 200px;
+}
+.colorgroup h4{
+	font-size: .9em;
+}
+.colorgroup p{
+    font-size: .8em;
+}
+.clear{
+    clear: both;
+}
+.swatches{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}

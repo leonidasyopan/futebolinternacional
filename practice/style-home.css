@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#top-bar {
+    background-color: #52471b;
+    height: 70px;
+    width: 100%;
+    border-bottom: 6px solid#87752d;
+}
+
+header {
+    background-image: url("images/comb.jpg");
+    background-color: #f2cc10;    
+}
+
+header img {
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {    
+    text-align: center;
+    color: #87752d;
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 3px;
+    margin-bottom: 18px;
+}
+
+header nav {
+    background-color: #87752d;
+    border-bottom: 2px solid #52471b;
+    border-top: 2px solid #52471b;
+    text-align: center;
+    padding: 7px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+header nav ul li a {
+    color: #f8ffb0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav ul li a:active {
+    color: #ffffff;
+}
+
+header nav ul li a:hover {
+    color: #fffc58;
+}
+
+header nav ul li a:visited {
+    color: #f6fc90;
+}
+
+main {
+    background-color: #f8ffb0;
+    
+}
+
+main figure {
+    background-color: #87752d;
+    width: 200px;
+    height: 332px;
+    padding-top: 6px;
+    border-radius: 10px;
+    margin-right: 14px;
+    margin-top: 72px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+main figure img {
+    display: block;
+    margin: auto;
+}
+
+main figure figcaption {
+    color: #f8ffb0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 8px;
+    
+}
+
+main blockquote {
+    clear: both;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding: 0 55px;
+    padding-bottom: 149px;
+    color: #52471b;
+}
+
+footer {
+    background-color: #52471b;    
+    font-weight: bold;
+    text-align: center;   
+    border-top: 6px solid #87752d;
+    color: #f2cc10;
+    padding: 34.5px 0;
+}
+
+.center-content {
+    width: 870px;
+    margin: 0 auto;
+}
+
+.quote-arial {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

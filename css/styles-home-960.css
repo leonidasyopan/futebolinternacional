@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Titillium+Web:400,700,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;    
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+
+body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(../images/bg-pattern/absurdidad.png);
+    background-color: #F2F2F2;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #595959;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    color: #042F40;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.content-width {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+/* HEADER STYLES */
+
+header img {
+    margin-top: 40px;
+    im
+}
+
+header nav {
+    margin-top: 40px;
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+header nav ul li {
+    display: inline-block;  
+    border-left: 2px solid #595959;  
+    border-top: 2px solid #595959;  
+    border-bottom: 2px solid #595959;  
+    margin: 0;
+    padding: 0;	
+}
+
+header nav ul li:nth-of-type(4) {	
+    border-right: 2px solid #595959;  
+}
+
+header nav ul li a:link{
+    display: block; 
+    background-color: #042F40; 
+    color: #F2F2F2;
+    text-decoration: none;	
+    font-size: 16px; 
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 35px;    
+    text-transform: uppercase;
+}
+
+header nav ul li a:visited{
+    color: lightyellow;
+}
+
+header nav ul li a:hover{
+    background-color: #F24150;
+    color: #042F40; 
+}
+
+header nav ul li a:active{
+    background-color: #595959;
+    color: #042F40; 
+}
+
+/* FOOTER STYLES */
+
+footer {
+    text-align: center;
+}
+
+footer nav {
+    background-color: #1FAFBF;
+    color: #F2F2F2;    
+}
+
+footer nav {    
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 10px;  
+}
+
+footer nav ul li a:link {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+footer nav ul li a:visited{
+    color: lightyellow;
+}
+
+footer nav ul li a:hover{
+    color: #042F40;
+    text-decoration: underline;	
+}
+
+footer nav ul li a:active{
+    color: #FFFFFF;	
+}
+
+footer #copyright-section {
+    background-color: #042F40;
+    color: #F2F2F2;
+    font-size: .8em;
+    font-weight: bold;
+    
+}
+
+footer #copyright-section p {
+    padding: 29px 0;
+}
+
+/* HOMEPAGE STYLES */
+
+#home-main h1:first-of-type {
+    display: none;
+}
+
+#main-image {
+    margin: 40px 0;
+}
+
+#home-main section {
+    display: flex;
+    margin-bottom: 50px;    
+}
+
+#home-main section:nth-of-type(1) {
+    text-align: right;    
+}
+
+#home-main section:nth-of-type(1) div {
+    padding: 71px 0 0 100px;     
+}
+
+#home-main section:nth-of-type(1) figure {
+    margin-left: 20px;
+    
+}
+
+#home-main section:nth-of-type(2) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#home-main section:nth-of-type(2) div {
+    padding: 72px 100px 0 0; 
+}
+
+#home-main section:nth-of-type(2) figure {
+    margin-right: 20px;
+}
+
+#home-main section div {
+    width: 50%;
+}
+
+#home-main section figure {
+    width: 50%;
+}
+
+#home-main section figure img {
+    width: 100%;
+}
+
+#home-main section h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
