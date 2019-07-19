@@ -68,10 +68,6 @@ ol li{
   padding-left: 30px;
 }
 
-main {
-    min-height: 80vh;
-}
-
 .content-width {
     margin: 0 auto;
     width: 820px;
