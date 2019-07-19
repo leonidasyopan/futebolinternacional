@@ -10,6 +10,8 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
+
+    <!-- The header will hold both the logo and the main navigation -->
     <header class="content-width">
         <a href="index.html"><img src="images/logo.png" alt="Logo Futebol Internacional"></a>
         <nav>
@@ -20,6 +22,8 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- This DIV element is used only for style purposes -->
         <div class="clear-float"></div>
     </header>
     <main id="premier-main" class="content-width">
@@ -33,13 +37,15 @@
 
         </section>
 
+        <!-- This section is organized with <a> elements because I need that the whole thing behaves as a link -->
+        <!-- The IDs seem generic, news-01, news-02, etc... because the content inside each is supposed to change on a daily basis -->
         <section class="news-section">
 
             <a href="#" class="main-news-call" id="news-01">
 
                 <figure>
                     <img src="images/liverpool-transfers-news.jpg" alt="Liverpool Transfers">
-                    <figcaption>'Salah at 20 won't replace Salah at 26' - Inside Liverpool's loan system</figcaption>
+                    <figcaption>'Salah at 20 won't replace Salah at 26' - Liverpool's loan system</figcaption>
                 </figure>
 
             </a>
@@ -75,7 +81,7 @@
 
                 <figure>
                     <img src="images/maguire-news.jpg" alt="Maguire to City">
-                    <figcaption>Man City in pole position for Maguire</figcaption>
+                    <figcaption>Man City in pole position for hiring Maguire</figcaption>
                 </figure>
 
             </a>
@@ -84,6 +90,8 @@
 
 
     </main>
+
+    <!-- The footer will be divided in two sections: Copyright and Secondary Navigation -->
     <footer>
         <nav>
             <ul class="content-width">
@@ -94,7 +102,7 @@
         </nav>
         <section id="copyright-section">
             <div class="content-width">
-                <p>Copyright ©2019 by Leonidas Yopan | All Rights Reserved.</p>
+                <p>Copyright © 2019 by Leonidas Yopan | All Rights Reserved.</p>
             </div>            
         </section>
     </footer>    
